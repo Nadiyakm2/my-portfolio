@@ -1,3 +1,4 @@
+<!-- HTML -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,43 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nadiya's Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    
 </head>
 <body>
-    <nav id="nav">
-        <ul>
-            <li class="na"><a href="#welcome">HOME</a></li>
-            <li class="na"><a href="#about">ABOUT</a></li>
-            <li class="na"><a href="#skills">SKILLS</a></li>
-            <li class="na"><a href="#contact">CONTACT</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav id="nav">
+            <b><a class="na" href="#Home">Home</a></b>
+            <b><a class="na" href="#about">About</a></b>
+            <b><a class="na" href="#education">Education</a></b>
+            <b><a class="na" href="#skills">Skills</a></b>
+            <b><a class="na" href="#contact">Contact</a></b>
+        </nav>
+    </header>
 
-    <div id="welcome">
-        <h2>Welcome to My Portfolio</h2>
-        <p>Hello! I'm Nadiya, a final year BCA student with a passion for web development and technology.</p>
-    </div>
+    <main>
+        <section class="wel section" id="welcome">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Hello! I'm Nadiya, a passionate final-year BCA student dedicated to mastering web development and technology. Explore my work and skills as I prepare to embark on my professional journey!</p>
+        </section>
+    
+        <section class="about section" id="about">
+            <h2>About Me</h2>
+            <p>My name is Nadiya km, and I am currently completing my BCA at the SAFI Institute Of Advanced Study. I thrive on tackling challenges through coding and enjoy creating innovative web applications that make a difference. My goal is to continuously learn and grow in the tech field.</p>
+        </section>
+    
+        <section class="education section" id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>Completed 10th grade with a score of 95% <span class="contrast">@ SOHSS Areekode, Malappuram</span></li>
+                <li>Completed 12th grade with a score of 89% <span class="contrast">@ SOHSS Areekode, Malappuram</span></li>
+                <li>Currently pursuing a BCA, focusing on advanced computing and programming skills <span class="contrast">@ SAFI Institute of Advanced Study, Vazhayur, Malappuram, India</span></li>
+            </ul>
+        </section>
+    
 
-    <div id="about">
-        <h2>About Me</h2>
-        <p>My name is Nadiya km, a final year BCA student at SAFI Institute Of Advanced Study. I enjoy coding, solving problems, and building web applications.</p>
-    </div>
+        <div class="sk section" id="skills">
+            <h2>My Skills</h2>
+            <ul>
+                <li>CSS</li>
+                <li>PHP</li>
+                <li>HTML</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
 
-    <div id="skills">
-        <h2>My Skills</h2>
-        <ul>
-            
-            <li>CSS</li>
-            <li>PHP</li>
-            <li>HTML</li>
-            <li>JavaScript</li>
-        </ul>
-    </div>
-
-    <div id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:kmnadiya003@gmail.com">kmnadiya003@gmail.com</a></p>
-        <p></p>
-    </div>
+        <div class="contact section" id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:kmnadiya003@gmail.com">kmnadiya003@gmail.com</a></p>
+        </div>
+    </main>
 </body>
 </html>
